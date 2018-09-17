@@ -4,4 +4,8 @@ mod 'puppetlabs-concat'
 #mod 'pltraining/dockeragent'
 #mod 'garthr/docker'
 
-
+mod 'puppetlabs-docker'
+mod 'puppetlabs-apt'
+mod 'puppetlabs-translate'
+mod 'puppetlabs-powershell'
+mod 'puppetlabs-reboot'
