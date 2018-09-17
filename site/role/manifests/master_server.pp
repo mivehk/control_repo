@@ -1,3 +1,5 @@
 class role::master_server {
-  indlude profile::base
+  include profile::base
+  include profile::agent_nodes
+  
 }
