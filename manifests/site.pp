@@ -14,3 +14,11 @@ node 'puppet-agent.localdomain'{
 node 'centos-agent.localdomain'{
   include role::agent_server
 }
+
+#node /^web/ {
+#include role::app_server
+#}
+
+#node /^db/ {
+#include role::db_server
+#}
