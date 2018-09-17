@@ -8,3 +8,9 @@ node default {
 node 'puppet2.localdomain' {
   include role::master_server
 }
+node 'puppet-agent.localdomain'{
+  include role::agent_server
+}
+node 'centos-agent.localdomain'{
+  include role::agent_server
+}
